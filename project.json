@@ -1,0 +1,21 @@
+{
+  "overview": "Elite Real Estate Listing — a premium property submission page for Club Invest Gurgaon. Clients fill out a detailed 7-section form to list their property for a curated private listing and video showcase.",
+  "features": [
+    "7-section property submission form",
+    "Client profile, property details, specifications, pricing, positioning, and USP sections",
+    "₹2 Cr+ price validation",
+    "Authorization consent checkbox",
+    "Backend storage of all submissions",
+    "Mobile-responsive layout with Club Invest Gurgaon branding"
+  ],
+  "category": "real-estate",
+  "tags": [
+    "real-estate",
+    "broker",
+    "listing",
+    "form",
+    "gurgaon",
+    "property"
+  ],
+  "last_updated": "2026-04-08T16:07:50.941Z"
+}

@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Inter", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-mono: "Inter", monospace;
+    --radius: 0.5rem;
+
+    /* White base */
+    --background: 0.995 0.002 90;
+    --foreground: 0.16 0.02 305;
+    --card: 1 0 0;
+    --card-foreground: 0.16 0.02 305;
+    --popover: 1 0 0;
+    --popover-foreground: 0.16 0.02 305;
+
+    /* Velvet Purple */
+    --primary: 0.35 0.3 305;
+    --primary-foreground: 0.98 0.005 90;
+
+    /* Very light purple tint */
+    --secondary: 0.96 0.03 305;
+    --secondary-foreground: 0.16 0.02 305;
+
+    /* Warm off-white muted */
+    --muted: 0.97 0.004 90;
+    --muted-foreground: 0.5 0.05 305;
+
+    /* Light lavender accent */
+    --accent: 0.93 0.04 305;
+    --accent-foreground: 0.35 0.3 305;
+
+    --destructive: 0.55 0.22 25;
+    --destructive-foreground: 0.98 0 0;
+
+    /* Gold borders */
+    --border: 0.74 0.13 75;
+    --input: 0.96 0.004 90;
+    --ring: 0.74 0.13 75;
+
+    /* Gold custom variable */
+    --gold: 0.74 0.13 75;
+    --gold-light: 0.88 0.09 80;
+    --gold-dark: 0.58 0.16 70;
+
+    --chart-1: 0.35 0.3 305;
+    --chart-2: 0.74 0.13 75;
+    --chart-3: 0.55 0.2 305;
+    --chart-4: 0.65 0.12 75;
+    --chart-5: 0.48 0.24 310;
+
+    --sidebar: 1 0 0;
+    --sidebar-foreground: 0.16 0.02 305;
+    --sidebar-primary: 0.35 0.3 305;
+    --sidebar-primary-foreground: 0.98 0.005 90;
+    --sidebar-accent: 0.93 0.04 305;
+    --sidebar-accent-foreground: 0.35 0.3 305;
+    --sidebar-border: 0.74 0.13 75;
+    --sidebar-ring: 0.74 0.13 75;
+  }
+
+  .dark {
+    --background: 0.995 0.002 90;
+    --foreground: 0.16 0.02 305;
+    --card: 1 0 0;
+    --card-foreground: 0.16 0.02 305;
+    --popover: 1 0 0;
+    --popover-foreground: 0.16 0.02 305;
+    --primary: 0.35 0.3 305;
+    --primary-foreground: 0.98 0.005 90;
+    --secondary: 0.96 0.03 305;
+    --secondary-foreground: 0.16 0.02 305;
+    --muted: 0.97 0.004 90;
+    --muted-foreground: 0.5 0.05 305;
+    --accent: 0.93 0.04 305;
+    --accent-foreground: 0.35 0.3 305;
+    --destructive: 0.55 0.22 25;
+    --destructive-foreground: 0.98 0 0;
+    --border: 0.74 0.13 75;
+    --input: 0.96 0.004 90;
+    --ring: 0.74 0.13 75;
+    --sidebar: 1 0 0;
+    --sidebar-foreground: 0.16 0.02 305;
+    --sidebar-primary: 0.35 0.3 305;
+    --sidebar-primary-foreground: 0.98 0.005 90;
+    --sidebar-accent: 0.93 0.04 305;
+    --sidebar-accent-foreground: 0.35 0.3 305;
+    --sidebar-border: 0.74 0.13 75;
+    --sidebar-ring: 0.74 0.13 75;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Inter", sans-serif;
+  }
+
+  input,
+  textarea,
+  select,
+  button,
+  label,
+  p,
+  span,
+  a,
+  li {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* White card with warm gold shadow and border */
+  .card-elevated {
+    @apply bg-card border border-border rounded-lg;
+    box-shadow: 0 1px 3px oklch(0.74 0.13 75 / 0.12), 0 4px 16px
+      oklch(0.74 0.13 75 / 0.08);
+  }
+
+  .btn-primary {
+    font-family: "Inter", sans-serif;
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded font-semibold transition-smooth hover:opacity-90;
+    letter-spacing: 0.08em;
+    border: 1px solid oklch(0.74 0.13 75 / 0.5);
+  }
+
+  .btn-secondary {
+    font-family: "Inter", sans-serif;
+    @apply bg-secondary text-secondary-foreground px-6 py-3 rounded font-semibold transition-smooth hover:opacity-90;
+    letter-spacing: 0.06em;
+  }
+
+  .section-divider {
+    @apply my-8;
+    border-top: 1px solid oklch(0.74 0.13 75 / 0.4);
+  }
+
+  .gold-divider {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      oklch(0.74 0.13 75 / 0.5),
+      oklch(0.74 0.13 75 / 0.9),
+      oklch(0.74 0.13 75 / 0.9),
+      oklch(0.74 0.13 75 / 0.5),
+      transparent
+    );
+  }
+
+  .luxury-accent {
+    color: oklch(0.6 0.15 75);
+    @apply font-semibold;
+  }
+
+  .label-premium {
+    font-family: "Inter", sans-serif;
+    @apply text-foreground font-semibold tracking-widest text-xs uppercase;
+    letter-spacing: 0.14em;
+  }
+
+  .input-premium {
+    font-family: "Inter", sans-serif;
+    @apply bg-white rounded px-4 py-2.5 text-foreground placeholder:text-muted-foreground transition-smooth;
+    border: 1px solid oklch(0.74 0.13 75 / 0.55);
+    box-shadow: 0 1px 4px oklch(0.74 0.13 75 / 0.06);
+    letter-spacing: 0.02em;
+  }
+  .input-premium:focus,
+  .input-premium:focus-visible {
+    outline: none;
+    border-color: oklch(0.35 0.3 305 / 0.8);
+    box-shadow: 0 0 0 3px oklch(0.35 0.3 305 / 0.12), 0 0 0 1px
+      oklch(0.74 0.13 75 / 0.3);
+  }
+
+  /* Gold text utility */
+  .text-gold {
+    color: oklch(0.6 0.15 75);
+  }
+
+  /* Gold border utility */
+  .border-gold {
+    border-color: oklch(0.74 0.13 75);
+  }
+
+  /* Heading display style */
+  .heading-display {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  /* Elegant section title */
+  .section-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+}

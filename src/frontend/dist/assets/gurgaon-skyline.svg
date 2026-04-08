@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120" fill="none">
+  <rect width="600" height="120" fill="#ffffff"/>
+
+  <!-- Ground line -->
+  <line x1="0" y1="105" x2="600" y2="105" stroke="#7B5EA7" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- ===== FAR BACKGROUND: hazy low-rise silhouette ===== -->
+  <rect x="0" y="88" width="600" height="17" fill="none" stroke="none"/>
+  <!-- distant row of low buildings (very light) -->
+  <polyline points="10,95 30,88 50,90 70,85 90,90 110,87 130,92 150,88 170,91 190,86 210,89 230,84 250,88 270,90 290,86 310,88 330,84 350,88 370,85 390,89 410,86 430,90 450,87 470,89 490,86 510,89 530,87 550,90 570,86 590,90 600,90" 
+        stroke="#c4b5d8" stroke-width="0.7" fill="none" stroke-dasharray="none"/>
+
+  <!-- ===== DLF CYBER CITY TOWERS (left cluster) ===== -->
+  <!-- Tower 1 - tallest DLF tower -->
+  <rect x="38" y="22" width="18" height="83" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <!-- horizontal window bands -->
+  <line x1="38" y1="30" x2="56" y2="30" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="38" x2="56" y2="38" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="46" x2="56" y2="46" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="54" x2="56" y2="54" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="62" x2="56" y2="62" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="70" x2="56" y2="70" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="78" x2="56" y2="78" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="86" x2="56" y2="86" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="38" y1="94" x2="56" y2="94" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- vertical center divider -->
+  <line x1="47" y1="22" x2="47" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- spire -->
+  <line x1="47" y1="22" x2="47" y2="12" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="42" y1="22" x2="47" y2="12" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="52" y1="22" x2="47" y2="12" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- Tower 2 - medium DLF -->
+  <rect x="62" y="36" width="15" height="69" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="62" y1="44" x2="77" y2="44" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="62" y1="52" x2="77" y2="52" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="62" y1="60" x2="77" y2="60" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="62" y1="68" x2="77" y2="68" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="62" y1="76" x2="77" y2="76" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="62" y1="84" x2="77" y2="84" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="62" y1="92" x2="77" y2="92" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="69.5" y1="36" x2="69.5" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- stepped top -->
+  <rect x="64" y="30" width="11" height="6" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- Tower 3 - shorter DLF -->
+  <rect x="82" y="48" width="13" height="57" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="82" y1="56" x2="95" y2="56" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="82" y1="64" x2="95" y2="64" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="82" y1="72" x2="95" y2="72" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="82" y1="80" x2="95" y2="80" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="82" y1="88" x2="95" y2="88" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="82" y1="96" x2="95" y2="96" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="88.5" y1="48" x2="88.5" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+
+  <!-- ===== CYBER HUB AREA – Low podium & curved roof ===== -->
+  <rect x="100" y="72" width="38" height="33" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <!-- curved glass roof atrium -->
+  <path d="M100,72 Q119,58 138,72" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <!-- glass grid on atrium -->
+  <line x1="109" y1="72" x2="105" y2="62" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="119" y1="72" x2="119" y2="59" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="129" y1="72" x2="133" y2="62" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- horizontal lines on podium -->
+  <line x1="100" y1="80" x2="138" y2="80" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="100" y1="88" x2="138" y2="88" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="100" y1="96" x2="138" y2="96" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- vertical dividers -->
+  <line x1="113" y1="72" x2="113" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="125" y1="72" x2="125" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- small label nub -->
+  <text x="119" y="115" text-anchor="middle" font-family="'Inter',sans-serif" font-size="6" fill="#c9a227" letter-spacing="0.08em">CYBER HUB</text>
+
+  <!-- ===== AMBIENCE MALL – large horizontal complex ===== -->
+  <!-- Main block -->
+  <rect x="152" y="55" width="52" height="50" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <!-- top tower -->
+  <rect x="163" y="38" width="14" height="17" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="163" y1="44" x2="177" y2="44" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="170" y1="38" x2="170" y2="55" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- antenna -->
+  <line x1="170" y1="38" x2="170" y2="28" stroke="#7B5EA7" stroke-width="1"/>
+  <circle cx="170" cy="28" r="1.5" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <!-- facade grid on main block -->
+  <line x1="152" y1="63" x2="204" y2="63" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="152" y1="71" x2="204" y2="71" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="152" y1="79" x2="204" y2="79" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="152" y1="87" x2="204" y2="87" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="152" y1="95" x2="204" y2="95" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="165" y1="55" x2="165" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="178" y1="55" x2="178" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="191" y1="55" x2="191" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <text x="178" y="115" text-anchor="middle" font-family="'Inter',sans-serif" font-size="6" fill="#c9a227" letter-spacing="0.08em">AMBIENCE MALL</text>
+
+  <!-- ===== UNITECH TWIN TOWERS (center-right prominence) ===== -->
+  <!-- Left tower -->
+  <rect x="222" y="15" width="17" height="90" fill="none" stroke="#7B5EA7" stroke-width="1.3"/>
+  <line x1="222" y1="24" x2="239" y2="24" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="33" x2="239" y2="33" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="42" x2="239" y2="42" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="51" x2="239" y2="51" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="60" x2="239" y2="60" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="69" x2="239" y2="69" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="78" x2="239" y2="78" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="87" x2="239" y2="87" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="222" y1="96" x2="239" y2="96" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="230.5" y1="15" x2="230.5" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- stepped crown left -->
+  <rect x="224" y="9" width="13" height="6" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <rect x="227" y="4" width="7" height="5" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="230.5" y1="4" x2="230.5" y2="0" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- Right tower -->
+  <rect x="244" y="15" width="17" height="90" fill="none" stroke="#7B5EA7" stroke-width="1.3"/>
+  <line x1="244" y1="24" x2="261" y2="24" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="33" x2="261" y2="33" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="42" x2="261" y2="42" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="51" x2="261" y2="51" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="60" x2="261" y2="60" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="69" x2="261" y2="69" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="78" x2="261" y2="78" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="87" x2="261" y2="87" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="244" y1="96" x2="261" y2="96" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="252.5" y1="15" x2="252.5" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- stepped crown right -->
+  <rect x="246" y="9" width="13" height="6" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <rect x="249" y="4" width="7" height="5" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="252.5" y1="4" x2="252.5" y2="0" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- Connecting bridge/podium between unitech towers -->
+  <rect x="222" y="96" width="39" height="9" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <text x="241" y="115" text-anchor="middle" font-family="'Inter',sans-serif" font-size="6" fill="#c9a227" letter-spacing="0.08em">UNITECH</text>
+
+  <!-- ===== MID-SECTION: Mixed high-rise cluster ===== -->
+  <!-- Tower A -->
+  <rect x="272" y="32" width="14" height="73" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="272" y1="40" x2="286" y2="40" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="272" y1="50" x2="286" y2="50" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="272" y1="60" x2="286" y2="60" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="272" y1="70" x2="286" y2="70" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="272" y1="80" x2="286" y2="80" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="272" y1="90" x2="286" y2="90" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="272" y1="100" x2="286" y2="100" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="279" y1="32" x2="279" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- angled top cut -->
+  <line x1="272" y1="32" x2="279" y2="24" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="286" y1="32" x2="279" y2="24" stroke="#7B5EA7" stroke-width="1.2"/>
+
+  <!-- Tower B -->
+  <rect x="291" y="44" width="12" height="61" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="291" y1="52" x2="303" y2="52" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="291" y1="61" x2="303" y2="61" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="291" y1="70" x2="303" y2="70" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="291" y1="79" x2="303" y2="79" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="291" y1="88" x2="303" y2="88" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="291" y1="97" x2="303" y2="97" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="297" y1="44" x2="297" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <rect x="293" y="38" width="8" height="6" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- Tower C slim glass -->
+  <rect x="307" y="28" width="11" height="77" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="307" y1="36" x2="318" y2="36" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="307" y1="45" x2="318" y2="45" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="307" y1="54" x2="318" y2="54" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="307" y1="63" x2="318" y2="63" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="307" y1="72" x2="318" y2="72" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="307" y1="81" x2="318" y2="81" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="307" y1="90" x2="318" y2="90" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="307" y1="99" x2="318" y2="99" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="312.5" y1="28" x2="312.5" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- pointed spire -->
+  <line x1="307" y1="28" x2="312.5" y2="18" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="318" y1="28" x2="312.5" y2="18" stroke="#7B5EA7" stroke-width="1.2"/>
+
+  <!-- ===== FLYOVER / HIGHWAY OVERPASS ===== -->
+  <!-- Main elevated road deck -->
+  <path d="M0,100 C80,92 160,96 240,93 C320,90 380,92 450,90 C500,88 540,89 600,91" 
+        fill="none" stroke="#7B5EA7" stroke-width="1.3"/>
+  <path d="M0,103 C80,95 160,99 240,96 C320,93 380,95 450,93 C500,91 540,92 600,94" 
+        fill="none" stroke="#7B5EA7" stroke-width="0.7"/>
+  <!-- Flyover pillars -->
+  <line x1="90" y1="96" x2="90" y2="105" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="87" y1="104" x2="93" y2="104" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="160" y1="98" x2="160" y2="105" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="157" y1="104" x2="163" y2="104" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="310" y1="93" x2="310" y2="105" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="307" y1="104" x2="313" y2="104" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="410" y1="91" x2="410" y2="105" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="407" y1="104" x2="413" y2="104" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="500" y1="89" x2="500" y2="105" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="497" y1="104" x2="503" y2="104" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- ===== RIGHT CLUSTER: more modern towers ===== -->
+  <!-- Tower D - signature notched glass tower -->
+  <rect x="330" y="20" width="16" height="85" fill="none" stroke="#7B5EA7" stroke-width="1.3"/>
+  <line x1="330" y1="29" x2="346" y2="29" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="38" x2="346" y2="38" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="47" x2="346" y2="47" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="56" x2="346" y2="56" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="65" x2="346" y2="65" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="74" x2="346" y2="74" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="83" x2="346" y2="83" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="92" x2="346" y2="92" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="330" y1="101" x2="346" y2="101" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="338" y1="20" x2="338" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- notched crown -->
+  <path d="M330,20 L330,12 L335,20" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <path d="M346,20 L346,12 L341,20" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- Tower E wedge -->
+  <rect x="351" y="36" width="13" height="69" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="351" y1="44" x2="364" y2="44" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="351" y1="53" x2="364" y2="53" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="351" y1="62" x2="364" y2="62" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="351" y1="71" x2="364" y2="71" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="351" y1="80" x2="364" y2="80" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="351" y1="89" x2="364" y2="89" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="351" y1="98" x2="364" y2="98" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="357.5" y1="36" x2="357.5" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- wedge top -->
+  <line x1="351" y1="36" x2="357.5" y2="28" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="364" y1="36" x2="364" y2="28" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="357.5" y1="28" x2="364" y2="28" stroke="#7B5EA7" stroke-width="1.2"/>
+
+  <!-- Tower F tall right anchor -->
+  <rect x="370" y="18" width="18" height="87" fill="none" stroke="#7B5EA7" stroke-width="1.3"/>
+  <line x1="370" y1="27" x2="388" y2="27" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="36" x2="388" y2="36" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="45" x2="388" y2="45" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="54" x2="388" y2="54" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="63" x2="388" y2="63" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="72" x2="388" y2="72" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="81" x2="388" y2="81" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="90" x2="388" y2="90" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="370" y1="99" x2="388" y2="99" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="379" y1="18" x2="379" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- diamond spire -->
+  <line x1="370" y1="18" x2="379" y2="8" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="388" y1="18" x2="379" y2="8" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="374" y1="14" x2="379" y2="8" stroke="#7B5EA7" stroke-width="0.7"/>
+  <line x1="384" y1="14" x2="379" y2="8" stroke="#7B5EA7" stroke-width="0.7"/>
+
+  <!-- ===== FAR RIGHT: Signature tower + smaller buildings ===== -->
+  <!-- Slim residential tower -->
+  <rect x="400" y="30" width="12" height="75" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="400" y1="39" x2="412" y2="39" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="400" y1="48" x2="412" y2="48" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="400" y1="57" x2="412" y2="57" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="400" y1="66" x2="412" y2="66" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="400" y1="75" x2="412" y2="75" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="400" y1="84" x2="412" y2="84" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="400" y1="93" x2="412" y2="93" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="400" y1="102" x2="412" y2="102" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="406" y1="30" x2="406" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- flat top with antenna -->
+  <line x1="406" y1="30" x2="406" y2="20" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="403" y1="24" x2="409" y2="24" stroke="#7B5EA7" stroke-width="0.8"/>
+
+  <!-- Mid-rise block right -->
+  <rect x="418" y="52" width="20" height="53" fill="none" stroke="#7B5EA7" stroke-width="1.2"/>
+  <line x1="418" y1="60" x2="438" y2="60" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="418" y1="68" x2="438" y2="68" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="418" y1="76" x2="438" y2="76" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="418" y1="84" x2="438" y2="84" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="418" y1="92" x2="438" y2="92" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="418" y1="100" x2="438" y2="100" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="428" y1="52" x2="428" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- stepped top -->
+  <rect x="422" y="45" width="12" height="7" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <rect x="425" y="40" width="6" height="5" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+
+  <!-- ===== RIGHTMOST EDGE: tapered towers fading out ===== -->
+  <!-- Tower G -->
+  <rect x="450" y="40" width="14" height="65" fill="none" stroke="#7B5EA7" stroke-width="1.1"/>
+  <line x1="450" y1="49" x2="464" y2="49" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="450" y1="58" x2="464" y2="58" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="450" y1="67" x2="464" y2="67" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="450" y1="76" x2="464" y2="76" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="450" y1="85" x2="464" y2="85" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="450" y1="94" x2="464" y2="94" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="457" y1="40" x2="457" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- diagonal roof cut -->
+  <line x1="450" y1="40" x2="464" y2="32" stroke="#7B5EA7" stroke-width="1.1"/>
+  <line x1="450" y1="32" x2="464" y2="32" stroke="#7B5EA7" stroke-width="1.1"/>
+  <line x1="450" y1="32" x2="450" y2="40" stroke="#7B5EA7" stroke-width="1.1"/>
+
+  <!-- Tower H small -->
+  <rect x="470" y="58" width="11" height="47" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="470" y1="66" x2="481" y2="66" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="470" y1="74" x2="481" y2="74" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="470" y1="82" x2="481" y2="82" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="470" y1="90" x2="481" y2="90" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="470" y1="98" x2="481" y2="98" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="475.5" y1="58" x2="475.5" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+  <!-- flat antenna -->
+  <line x1="475.5" y1="58" x2="475.5" y2="50" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="472" y1="52" x2="479" y2="52" stroke="#7B5EA7" stroke-width="0.7"/>
+
+  <!-- Tower I even smaller -->
+  <rect x="486" y="66" width="10" height="39" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="486" y1="74" x2="496" y2="74" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="486" y1="82" x2="496" y2="82" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="486" y1="90" x2="496" y2="90" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="486" y1="98" x2="496" y2="98" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="491" y1="66" x2="491" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+
+  <!-- Low-rise row right edge -->
+  <rect x="502" y="75" width="14" height="30" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="502" y1="82" x2="516" y2="82" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="502" y1="89" x2="516" y2="89" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="502" y1="96" x2="516" y2="96" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="509" y1="75" x2="509" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+
+  <rect x="520" y="80" width="12" height="25" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="520" y1="88" x2="532" y2="88" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="520" y1="96" x2="532" y2="96" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="526" y1="80" x2="526" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+
+  <rect x="536" y="84" width="10" height="21" fill="none" stroke="#7B5EA7" stroke-width="1"/>
+  <line x1="536" y1="91" x2="546" y2="91" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="536" y1="98" x2="546" y2="98" stroke="#7B5EA7" stroke-width="0.5"/>
+  <line x1="541" y1="84" x2="541" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+
+  <rect x="550" y="88" width="8" height="17" fill="none" stroke="#7B5EA7" stroke-width="0.8"/>
+  <line x1="554" y1="88" x2="554" y2="105" stroke="#7B5EA7" stroke-width="0.5"/>
+
+  <rect x="563" y="91" width="8" height="14" fill="none" stroke="#7B5EA7" stroke-width="0.8"/>
+  <rect x="575" y="93" width="7" height="12" fill="none" stroke="#7B5EA7" stroke-width="0.8"/>
+  <rect x="586" y="95" width="7" height="10" fill="none" stroke="#7B5EA7" stroke-width="0.8"/>
+
+  <!-- ===== Gold accent dots on select spire tips ===== -->
+  <circle cx="47" cy="12" r="2" fill="#c9a227" stroke="none"/>
+  <circle cx="230.5" cy="0" r="1.8" fill="#c9a227" stroke="none"/>
+  <circle cx="252.5" cy="0" r="1.8" fill="#c9a227" stroke="none"/>
+  <circle cx="379" cy="8" r="2" fill="#c9a227" stroke="none"/>
+  <circle cx="170" cy="28" r="1.5" fill="#c9a227" stroke="none"/>
+</svg>

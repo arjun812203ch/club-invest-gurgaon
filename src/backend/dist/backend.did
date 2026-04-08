@@ -1,0 +1,57 @@
+type TargetBuyer = 
+ variant {
+   EndUser;
+   Investor;
+   PremiumBuyer;
+ };
+type Representation = 
+ variant {
+   Broker;
+   ChannelPartner;
+   Owner;
+ };
+type PropertySubmission = 
+ record {
+   area: text;
+   askingPrice: text;
+   authorized: bool;
+   city: text;
+   clientName: text;
+   configuration: text;
+   connectivity: text;
+   contactNumber: text;
+   email: text;
+   floorDetails: text;
+   fullAddress: text;
+   furnishing: Furnishing;
+   keyHighlights: text;
+   location: text;
+   locationAdvantages: text;
+   negotiable: bool;
+   priceJustification: text;
+   projectName: text;
+   propertyAge: text;
+   propertyCategory: PropertyCategory;
+   representation: Representation;
+   submittedAt: int;
+   targetBuyer: TargetBuyer;
+   uniqueFeatures: text;
+ };
+type PropertyCategory = 
+ variant {
+   Apartment;
+   BuilderFloor;
+   Commercial;
+   Plot;
+   Villa;
+ };
+type Furnishing = 
+ variant {
+   Furnished;
+   SemiFurnished;
+   Unfurnished;
+ };
+service : {
+  getSubmissions: () -> (vec PropertySubmission) query;
+  submitProperty: (submission: PropertySubmission) -> (text);
+}

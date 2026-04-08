@@ -1,0 +1,44 @@
+// Version: 1.0.0
+type Furnishing__698205160 = {#Furnished; #SemiFurnished; #Unfurnished};
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type PropertyCategory__554174004 =
+  {#Apartment; #BuilderFloor; #Commercial; #Plot; #Villa};
+type PropertySubmission__890074278 =
+  {
+    area : Text;
+    askingPrice : Text;
+    authorized : Bool;
+    city : Text;
+    clientName : Text;
+    configuration : Text;
+    connectivity : Text;
+    contactNumber : Text;
+    email : Text;
+    floorDetails : Text;
+    fullAddress : Text;
+    furnishing : Furnishing__698205160;
+    keyHighlights : Text;
+    location : Text;
+    locationAdvantages : Text;
+    negotiable : Bool;
+    priceJustification : Text;
+    projectName : Text;
+    propertyAge : Text;
+    propertyCategory : PropertyCategory__554174004;
+    representation : Representation__1021379967;
+    submittedAt : Int;
+    targetBuyer : TargetBuyer__183877457;
+    uniqueFeatures : Text
+  };
+type Representation__1021379967 = {#Broker; #ChannelPartner; #Owner};
+type TargetBuyer__183877457 = {#EndUser; #Investor; #PremiumBuyer};
+actor {
+  stable submissionCounter : {var value : Nat};
+  stable submissions :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?PropertySubmission__890074278]];
+      var elementIndex : Nat__490723111
+    }
+};
